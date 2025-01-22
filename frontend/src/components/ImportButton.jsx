@@ -5,7 +5,7 @@ function ImportButton({ stageId, onImportSuccess }) {
     const [isLoading, setIsLoading] = useState(false);
 
     const baseURL = process.env.NODE_ENV === 'development' 
-    ? 'http://localhost:5001/your-project-id/us-central1'  // Local Firebase emulator
+    ? 'http://localhost:5001/acexrsample/us-central1'  // Local Firebase emulator
     : 'https://us-central1-acexrsample.cloudfunctions.net';  // Production Firebase
 
 
