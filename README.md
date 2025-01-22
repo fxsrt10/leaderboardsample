@@ -72,6 +72,17 @@ A React application that fetches and displays leaderboard data from ACE platform
    firebase deploy
    ```
 
+## Testing
+
+The project includes unit tests for Firebase Cloud Functions using Jest.
+
+### Running Tests
+
+```bash
+cd functions
+npm test
+```
+
 ## Firebase Functions
 
 The project includes two main Firebase functions:
