@@ -27,6 +27,14 @@
     ],
     "rewrites": [
       {
+        "source": "/getLeaderboard",
+        "function": "getLeaderboard"
+      },
+      {
+        "source": "/fetchLeaderboard",
+        "function": "fetchLeaderboard"
+      },
+      {
         "source": "/static/**",
         "destination": "/static/**"
       },
